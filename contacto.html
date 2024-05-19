@@ -1,46 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<head>  
+     <link rel="stylesheet" type="text/css" href="./estilos.css" />
+        <title>Formulario</title>
 </head>
+
 <body>
-    <header>
-<h1>Este es un formulario de contacto</h1>
-    </header>
-    <main>
-<div>
-    <h2>
-        Este es un formilario para que puedas cotactarnos
-    </h2>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat omnis quisquam, maxime magni delectus odio, rem iure aperiam dolor tenetur nulla debitis esse! Qui, sapiente expedita. Nulla, consectetur et. Corporis.</p>
+
+   <div class="formilario-container">
+     <h2 id="titulo">Formulario de contacto</h2>
+     <form>
+
+     <input class="inputs" type="text" name="nombre" id="nombre" placeholder="Ingrese su Nombre"/>
+    <input class="inputs" type="text" name="apellido" id="apellido" placeholder="Ingrese su Apellido"/>
+<input class="inputs" type="email" name="correo" id="correo" placeholder="Ingrese su Correo Electronico" /> 
+<input class="inputs" type="password" name="contraseña" id="contraseña" placeholder="Ingrese su contraseña">
+<p class="texto">Acepto los <a class="links" href="#">Terminos y Condiciones</a></p>
+<input id="button" type="submit" value="Registrar">
+<p class="texto"><a class="links" href="#"> ¿ Ya tengo una cuenta ?</a></p>
+
+<div class="fondo"></div>
+</form>
 </div>
-<form>
-
-    <div>
-    
-<input type="text" name="nombre" placeholder="nombre" />
-</div>
-
-<div>
-
-<input type="text" name="apellido" placeholder="apellido" />
-</div>
-
-<div>
-
-<input type="number" name="edad" placeholder="edad" /> 
-</div>
-
-<div>
-    
-    <input type="password" name="password"  placeholder="password"/>
-</div>
-<button>ENVIAR</button>
-
-  </form>
-
-</main>
 </body>
 </html>
