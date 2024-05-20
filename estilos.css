@@ -1,62 +1,79 @@
 body{
- background-image: radial-gradient(circle, #B43699, #951DDA );
+    background-image: radial-gradient(circle, #B43699, #951DDA );
+   }
+.fondo{
+    max-width: 700%;
+    height: auto; 
+    margin: 20px auto; 
+  
+    background-size: 150% auto; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    display:block;
+    margin:0 auto;
+    max-width: 800px;
+    height: auto
+    
 }
-
-.formulario-container{
-
-    height: 50px;
-    background-color: #5F44A9;
-    margin: 10px auto;
-    padding: 10px;
-    border-radius: 4px;
-    font-family: "Calibri";
-    color: white;
-    box-shadow: 2px 2px 18px rgb(73, 21, 129);
+.ancho {
+    width: 100%;
+    height: 400px;
+    transform: scaleX(1.5) scaleY(1);
+    display: block;
 }
-
-.inputs{
-    width: 40%;
-    margin: 5px 470px;
-    padding: 10px;
-    background-color: 1px solid rgb(68, 8, 94);
-    border: 10px;
-    color: white;
-    font-family: "calibri";
-    font-size: 18px;
+body.principal .imagen-fondo img {
+    width: 100%; 
+    height: auto; 
+    display: block;
+    visibility: hidden; 
 }
-
-.inputs:focus{
-    background-color: #e23be2;
-}
-
-.links:hover{
-    text-decoration: underline;
-}
-
-.texto{
-    text-align: center;
-    height: 22px;
-    margin: 20px 20px;
-    line-height: 20px;
-}
-
-#titulo{
-    font-size: 22px;
-    letter-spacing: 2px;
-    text-align: center;
-    margin-bottom: 20px ;
-    text-shadow: 1px 1px 10px white;
-}
-
-#button{
-    width: 40%;
-    padding: 12px;
-    margin: 10px 480px;
-    background-color: #B164EE;
-    color: white;
-    font-size: pointer;
-}
-
-#button:active{
-    background-color: #780FBD;
-}
+.formulario-container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid black; /* Borde negro */
+    background-color: rgb(0, 0, 255);
+    text-align: center; /* Centrar el contenido del formulario */}
+    .inputs {
+        width: 100%; /* Ancho completo del contenedor padre */
+        padding: 10px;
+        border: 1px solid black; /* Borde negro */
+        color: rgb(195, 105, 247);
+        font-family: "Calibri";
+        font-size: 18px;
+        box-sizing: border-box;
+        background-color: rgb(218, 167, 239); /* Fondo morado */
+    }
+    
+    .formulario-container {
+        width: 50%;
+        margin: 50px auto;
+        padding: 20px;
+        border: 2px solid black; /* Borde negro */
+        border-radius: 10px;
+        background-color: rgb(162, 5, 234); /* Fondo azul */
+        text-align: center; /* Centrar el texto del formulario */
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Dos columnas de igual tamaño */
+        gap: 10px; /* Espacio entre los elementos de la cuadrícula */
+        border: 2px solid black; /* Borde de la cuadrícula */
+        padding: 10px; /* Espacio dentro de la cuadrícula */
+        margin-top: 20px; /* Espacio arriba de la cuadrícula */
+        background-color: rgb(240, 240, 240); /* Fondo gris claro para visibilidad */
+    }
+    
+    .grid-item {
+        display: flex; /* Usamos flexbox para centrar */
+        justify-content: center; /* Centramos horizontalmente */
+        align-items: center; /* Centramos verticalmente */
+        border: 1px solid black; /* Borde de los elementos de la cuadrícula */
+        padding: 10px; /* Espacio dentro de los elementos de la cuadrícula */
+        background-color: rgb(255, 255, 255); /* Fondo blanco de los elementos */
+        height: 100px; /* Altura fija para mejor visualización */
+    }
+    .registrar{
+        background-color: #d3ade9;
+    }
